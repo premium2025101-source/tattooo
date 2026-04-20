@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
-  branch: main # تأكد أن هذا هو اسم الفرع الرئيسي عندك في جيت هاب
+  branch: main
 
-media_folder: "public/images" # المجلد الذي ستُحفظ فيه الصور
+media_folder: "public/images"
 public_folder: "/images"
 
 collections:
