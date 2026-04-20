@@ -1,0 +1,11 @@
+collections:
+  - name: "services"
+    label: "الخدمات والأسعار"
+    folder: "src/content/services"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "اسم الخدمة", name: "title", widget: "string" }
+      - { label: "السعر", name: "price", widget: "string" }
+      - { label: "الوصف", name: "description", widget: "text" }
